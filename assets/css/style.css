@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: poppins;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.navbar-nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    flex-direction: row;
+    padding: 1px 21px 1px 21px;
+    border-radius: 0px 0px 0px 20px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #383838;
+    background-color: #2B2B2CBF;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FFDB70;
+}
+
+.profile-card {
+    position: sticky;
+    top: 10px;
+    background-color: #1E1E1F;
+    border: 1px solid #383838;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-card h3 {
+    border: 1px solid #383838;
+    background-color: #2B2B2C;
+    padding: 2px;
+    border-radius: 12px;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.info h4 {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.info p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.info i {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #2B2B2C;
+    padding: 10px;
+    color: #FFDB70;
+}
+
+.detail {
+    padding: 0px 10px;
+}
+
+.social i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.about {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #383838;
+    color: #f5f5f5;
+    padding: 10px;
+    background-color: #1E1E1F;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.about-section {
+    background-color: #1E1E1F;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    border-bottom: 3px solid #FFDB70;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        margin-top: 20px;
+    }
+}
+
+.work {
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.work h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: 1px solid #383838;
+    color: #f5f5f5;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonials {
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.testimonial-content h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.testimonial-content p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.button button {
+    background-color: black;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
