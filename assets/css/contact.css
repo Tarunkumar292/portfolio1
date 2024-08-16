@@ -125,3 +125,8 @@ body {
     resize: none;
     height: 120px;
 }
+.btn{
+    background-color: #2B2B2C;
+    border: none;
+    color: #FFDB70;
+}
