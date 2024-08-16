@@ -30,6 +30,24 @@ body {
     color: #FFDB70;
 }
 
+@media (max-width: 768px) {
+    .about {
+        position: relative;
+    }
+
+    .navbar-nav {
+        top: auto;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        padding: 1px 21px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px solid #383838;
+        background-color: #2B2B2CBF;
+    }
+}
+
 .profile-card {
     position: sticky;
     top: 10px;
@@ -193,4 +211,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+
+.button button:hover {
+    background-color: black;
 }

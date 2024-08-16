@@ -81,6 +81,23 @@ body {
 .navbar-nav .nav-link.active {
     color: #FFDB70;
 }
+@media (max-width: 768px) {
+    .about {
+        position: relative;
+    }
+
+    .navbar-nav {
+        top: auto;
+        bottom: -50px;
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        padding: 1px 21px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px solid #383838;
+        background-color: #2B2B2CBF;
+    }
+}
 
 .contact {
     position: relative;
@@ -110,7 +127,7 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid rgba(255,255,255,0.194);
+    border: 1px solid rgba(255, 255, 255, 0.194);
     border-radius: 12px;
     box-sizing: border-box;
     background-color: transparent;
@@ -125,8 +142,14 @@ body {
     resize: none;
     height: 120px;
 }
-.btn{
+
+.btn {
     background-color: #2B2B2C;
     border: none;
     color: #FFDB70;
+}
+
+.btn:hover {
+    color: #FFDB70;
+    background-color: #2B2B2C;
 }
